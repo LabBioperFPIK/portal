@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Portal Laboratorium</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Portal Laboratorium</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Portal Laboratorium Bioteknologi & Ekologi Perairan</h2>
-    <form id="loginForm">
-      <input type="text" id="username" placeholder="Nama pengguna" required>
-      <input type="password" id="password" placeholder="Kata sandi" required>
-      <button type="submit">Masuk</button>
-      <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
-    </form>
-  </div>
-  <script src="script.js"></script>
+    <div class="header">
+        <h1>LABORATORIUM BIOFER FPIK</h1>
+        <p>Melayani Mahasiswa dan Dosen</p>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="register.html">Register</a>
+        <a href="dashboard.html">Dashboard</a>
+    </div>
+    
+    <div class="container">
+        <h2>Selamat Datang di Portal Lab</h2>
+        <p>Silakan pilih menu di atas untuk mulai menggunakan layanan kami.</p>
+        
+        <div class="services">
+            <div class="service-card">
+                <h3>Peminjaman Alat</h3>
+                <p>Pinjam alat laboratorium untuk penelitian</p>
+            </div>
+            <div class="service-card">
+                <h3>Peminjaman Ruangan</h3>
+                <p>Booking ruangan lab untuk kegiatan akademik</p>
+            </div>
+            <div class="service-card">
+                <h3>Konsultasi</h3>
+                <p>Konsultasi dengan dosen dan pengelola lab</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
