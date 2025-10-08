@@ -20,7 +20,7 @@
     <div class="container">
         <div class="form-container">
             <h2>Login ke Portal Lab</h2>
-            <p>Masukkan NIM/NIP dan password untuk mengakses layanan</p>
+            <p>Masukkan NIM/NIP dan password</p>
             
             <form>
                 <div class="form-group">
