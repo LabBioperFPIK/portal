@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Portal Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>LABORATORIUM BIOFER FPIK</h1>
+        <p>Melayani Mahasiswa dan Dosen</p>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html" class="active">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Login ke Portal Lab</h2>
+            <p>Masukkan NIM/NIP dan password untuk mengakses layanan</p>
+            
+            <form>
+                <div class="form-group">
+                    <label>NIM / NIP:</label>
+                    <input type="text" placeholder="Masukkan NIM atau NIP" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input type="password" placeholder="Masukkan kata sandi" required>
+                </div>
+                
+                <button type="submit" class="btn">Login</button>
+            </form>
+            
+            <p class="login-link">Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+        </div>
+    </div>
+</body>
+</html>
