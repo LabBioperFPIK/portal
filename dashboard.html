@@ -7,25 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Portal Laboratorium Bioteknologi & Ekologi Perairan</h1>
-    <nav>
-      <a href="#" id="menu-peminjaman">Peminjaman Alat</a>
-      <a href="#" id="menu-inventaris">Inventaris Alat</a>
-      <a href="#" id="menu-sop">SOP Laboratorium</a>
-      <a href="index.html" id="logout">Keluar</a>
-    </nav>
-  </header>
+  <div class="header">
+    <h1>LABORATORIUM BIOFER FPIK</h1>
+    <p>Melayani Mahasiswa dan Dosen</p>
+  </div>
 
-  <main id="content">
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html" class="active">Dashboard</a>
+  </div>
+
+  <div class="container">
     <h2>Selamat datang di portal laboratorium 🎓</h2>
     <p>Pilih menu di atas untuk mengakses fitur laboratorium.</p>
-  </main>
-
-  <footer>
-    <p>© 2025 Laboratorium Bioteknologi & Ekologi Perairan - FPIK</p>
-  </footer>
-
-  <script src="script.js"></script>
+    
+    <div class="dashboard-menu">
+      <div class="menu-card">
+        <h3>Peminjaman Alat</h3>
+        <p>Pinjam alat laboratorium untuk penelitian</p>
+      </div>
+      <div class="menu-card">
+        <h3>Inventaris Alat</h3>
+        <p>Lihat daftar alat dan ketersediaan</p>
+      </div>
+      <div class="menu-card">
+        <h3>SOP Laboratorium</h3>
+        <p>Prosedur operasional standar</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
